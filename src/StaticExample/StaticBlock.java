@@ -14,10 +14,10 @@ public class StaticBlock {
 	
 	public static void main(String[] args) {
 		StaticBlock bl1=new StaticBlock();
-		System.out.println(StaticBlock.a+" "+StaticBlock.b);
+		System.out.println(StaticBlock.a+" "+StaticBlock.b);   //4 20
 		StaticBlock.b+=5;
 		StaticBlock bl2=new StaticBlock();
-		System.out.println(StaticBlock.a+" "+StaticBlock.b);
+		System.out.println(StaticBlock.a+" "+StaticBlock.b);   // 4 25
 		
 		
 	}
