@@ -1,5 +1,21 @@
 package Singleton;
 
+
+// Singleton - which is a class that only create only one class 
 public class Singleton {
+	private int num;
+	private Singleton() {
+		
+	}
+	
+	private static Singleton instance;
+	
+	public static Singleton getInstance() {
+		if(instance==null) {
+			instance=new Singleton();
+		}
+		
+		return instance;
+	}
 
 }
