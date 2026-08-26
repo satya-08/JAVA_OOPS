@@ -1,0 +1,47 @@
+Polymorphism :
+
+	Poly     -->  Many
+	Morphism -->  Ways to Represent
+
+{poly,morphism} --> Greeks words
+
+-> Any language which does not support Polymorphism this it is not a Object Programming Language
+   They are called Object Bases Languages (ex ADS)
+ -> It occurs during Inheritance
+ 
+ 
+Present example :
+   parent class --> Shape
+   Child classes --> Circle,Triangle ,Square
+   
+
+Types of Polymorphism:
+  
+  1. CompileTime/ Static Polymorphism
+  		-> This is achieved by Method Overloading 
+  				--> When a class has multiple methos with same name but number of parameters/arguments,type of parmeters, return type are different
+                  --> ex : Multiple Constructors
+        -> Java determines which constructors while compile 
+        -> 
+  
+  2. RunTime / Dynamic Polymorphism
+  		-> This is achieved by method overriding
+  				--> When a child class have method name same as the super class exactly same every thing just body is differet 
+  					-> Ex area method in all classes
+  		-> @Override is the annotations 
+  		-> In circle /square area method is override the parent classes
+
+  		
+      Parent object = new Child();
+    
+    --> here which method will be called depends on the type of child
+    --> This is known as UpCasting
+    
+    --> This describes the How Override works
+
+    
+    
+  Dynamic Method Dispatch :
+    -> Is is just a mechanism by which a call to a overridden method to reslove at runtime rather than compile time 
+    
+    -> 

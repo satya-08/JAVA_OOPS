@@ -7,6 +7,11 @@ public class BoxWeight extends Box {
 		this.weight=-1;
 		this.h=-1; // we can access from here if not possible if it is private modifier
 	}
+	
+	public BoxWeight(BoxWeight box5) {
+		super(box5);
+		this.weight=box5.weight;
+	}
 
 	public BoxWeight(double l, double h, double w, double weight) {
 		super(l, h, w); // It calls the parent class constructor 
@@ -15,6 +20,11 @@ public class BoxWeight extends Box {
 		System.out.println(super.h);
 		
 		this.weight = weight;
+	}
+	
+	BoxWeight(double side,double weight){
+		super(side);
+		this.weight=weight;
 	}
 
 }
