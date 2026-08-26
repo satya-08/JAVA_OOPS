@@ -53,4 +53,6 @@ Final keyword:
 
 	
 	
-Static Methods can't be override
+Static Methods can't be override but can inheritent
+
+Instance variable can't be applied for overloading and override
