@@ -8,12 +8,12 @@ public class Main {
 		Shape triangle =new Triangle();
 		
 		// This objects are override the parent class
-//		shape.area();
+		shape.area();
 		circle.area();
 		
 		// Triangle object calls the Shape area method bcz Triangle class doesn't have area method
 		// So its call the super class method
-		((Circle) triangle).area();
+		triangle.area();
 	}
 
 }
