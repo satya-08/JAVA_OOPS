@@ -44,4 +44,13 @@ Types of Polymorphism:
   Dynamic Method Dispatch :
     -> Is is just a mechanism by which a call to a overridden method to reslove at runtime rather than compile time 
     
-    -> 
+
+    
+    
+    
+Final keyword:
+	-> we can't override a method which is final method
+
+	
+	
+Static Methods can't be override
