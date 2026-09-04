@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f43ada7-c306-491b-830e-31f1383c730a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../bin/Interfaces/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Interfaces/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Interfaces/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/FileHandling/FileReaderExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/FileHandling/FileReaderExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/FileHandling/FileReaderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/FileHandling/FileReaderExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

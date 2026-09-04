@@ -5,7 +5,7 @@ import java.io.FileReader;
 
 public class FileReaderExample {
 	public static void main(String[] args) {
-		try(FileReader fr=new FileReader("FileHandling.notes.txt")){
+		try(FileReader fr=new FileReader("notes.txt")){
 			System.out.println("Enter some letters");
 			int letters=fr.read();
 			while(fr.ready()) {
